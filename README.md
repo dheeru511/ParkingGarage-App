@@ -60,8 +60,8 @@ Coding Specifics:
 
 Assumptions:
 
-Drivers license is accepted as unique identifier. As licenses are unique, assumption is no two spots are booked with same license ID
-User enters valid values while configuring parking lot from regular to handicap and so on
+- Drivers license is accepted as unique identifier. As licenses are unique, assumption is no two spots are booked with same license ID
+- User enters valid values while configuring parking lot from regular to handicap and so on
 
 
 
