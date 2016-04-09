@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		000E512A1BA0795000000543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E51291BA0795000000543 /* main.m */; };
 		000E512D1BA0795000000543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E512C1BA0795000000543 /* AppDelegate.m */; };
-		000E51301BA0795000000543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E512F1BA0795000000543 /* ViewController.m */; };
+		000E51301BA0795000000543 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E512F1BA0795000000543 /* HomeViewController.m */; };
 		000E51331BA0795000000543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000E51311BA0795000000543 /* Main.storyboard */; };
 		000E51361BA0795000000543 /* ParkingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000E51341BA0795000000543 /* ParkingApp.xcdatamodeld */; };
 		000E51381BA0795000000543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000E51371BA0795000000543 /* Assets.xcassets */; };
 		000E513B1BA0795000000543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000E51391BA0795000000543 /* LaunchScreen.storyboard */; };
 		000E51461BA0795100000543 /* ParkingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E51451BA0795100000543 /* ParkingAppTests.m */; };
 		000E51511BA0795100000543 /* ParkingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E51501BA0795100000543 /* ParkingAppUITests.m */; };
+		000E51611BA07A3000000543 /* ParkingUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E51601BA07A3000000543 /* ParkingUnits.m */; };
+		000E51651BA07AB200000543 /* ParkingGarage.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E51641BA07AB200000543 /* ParkingGarage.m */; };
+		000E516B1BA090FF00000543 /* ParkingSpotsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E516A1BA090FF00000543 /* ParkingSpotsVC.m */; };
+		000E516E1BA0E56800000543 /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E516D1BA0E56800000543 /* DetailsVC.m */; };
+		0044A6781BA1EBA7002F0BE8 /* ReconfigureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A6771BA1EBA7002F0BE8 /* ReconfigureVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +45,8 @@
 		000E51291BA0795000000543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		000E512B1BA0795000000543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		000E512C1BA0795000000543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		000E512E1BA0795000000543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		000E512F1BA0795000000543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000E512E1BA0795000000543 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		000E512F1BA0795000000543 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		000E51321BA0795000000543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		000E51351BA0795000000543 /* ParkingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkingApp.xcdatamodel; sourceTree = "<group>"; };
 		000E51371BA0795000000543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +58,17 @@
 		000E514C1BA0795100000543 /* ParkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000E51501BA0795100000543 /* ParkingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingAppUITests.m; sourceTree = "<group>"; };
 		000E51521BA0795100000543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000E515F1BA07A3000000543 /* ParkingUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParkingUnits.h; path = ../ParkingUnits.h; sourceTree = "<group>"; };
+		000E51601BA07A3000000543 /* ParkingUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParkingUnits.m; path = ../ParkingUnits.m; sourceTree = "<group>"; };
+		000E51631BA07AB200000543 /* ParkingGarage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingGarage.h; sourceTree = "<group>"; };
+		000E51641BA07AB200000543 /* ParkingGarage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingGarage.m; sourceTree = "<group>"; };
+		000E51661BA07B8700000543 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		000E51691BA090FF00000543 /* ParkingSpotsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingSpotsVC.h; sourceTree = "<group>"; };
+		000E516A1BA090FF00000543 /* ParkingSpotsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingSpotsVC.m; sourceTree = "<group>"; };
+		000E516C1BA0E56800000543 /* DetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
+		000E516D1BA0E56800000543 /* DetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
+		0044A6761BA1EBA7002F0BE8 /* ReconfigureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReconfigureVC.h; sourceTree = "<group>"; };
+		0044A6771BA1EBA7002F0BE8 /* ReconfigureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReconfigureVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +121,9 @@
 			children = (
 				000E512B1BA0795000000543 /* AppDelegate.h */,
 				000E512C1BA0795000000543 /* AppDelegate.m */,
-				000E512E1BA0795000000543 /* ViewController.h */,
-				000E512F1BA0795000000543 /* ViewController.m */,
-				000E51311BA0795000000543 /* Main.storyboard */,
-				000E51371BA0795000000543 /* Assets.xcassets */,
-				000E51391BA0795000000543 /* LaunchScreen.storyboard */,
-				000E513C1BA0795000000543 /* Info.plist */,
-				000E51341BA0795000000543 /* ParkingApp.xcdatamodeld */,
+				000E51681BA07C5B00000543 /* View */,
+				000E51671BA07C3300000543 /* Model */,
+				000E51621BA07A3D00000543 /* Core Data Model */,
 				000E51281BA0795000000543 /* Supporting Files */,
 			);
 			path = ParkingApp;
@@ -120,6 +132,8 @@
 		000E51281BA0795000000543 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				000E51661BA07B8700000543 /* Constants.h */,
+				000E513C1BA0795000000543 /* Info.plist */,
 				000E51291BA0795000000543 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +155,43 @@
 				000E51521BA0795100000543 /* Info.plist */,
 			);
 			path = ParkingAppUITests;
+			sourceTree = "<group>";
+		};
+		000E51621BA07A3D00000543 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				000E515F1BA07A3000000543 /* ParkingUnits.h */,
+				000E51601BA07A3000000543 /* ParkingUnits.m */,
+				000E51341BA0795000000543 /* ParkingApp.xcdatamodeld */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		000E51671BA07C3300000543 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				000E51631BA07AB200000543 /* ParkingGarage.h */,
+				000E51641BA07AB200000543 /* ParkingGarage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		000E51681BA07C5B00000543 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				000E512E1BA0795000000543 /* HomeViewController.h */,
+				000E512F1BA0795000000543 /* HomeViewController.m */,
+				000E516C1BA0E56800000543 /* DetailsVC.h */,
+				000E516D1BA0E56800000543 /* DetailsVC.m */,
+				000E51691BA090FF00000543 /* ParkingSpotsVC.h */,
+				000E516A1BA090FF00000543 /* ParkingSpotsVC.m */,
+				0044A6761BA1EBA7002F0BE8 /* ReconfigureVC.h */,
+				0044A6771BA1EBA7002F0BE8 /* ReconfigureVC.m */,
+				000E51311BA0795000000543 /* Main.storyboard */,
+				000E51371BA0795000000543 /* Assets.xcassets */,
+				000E51391BA0795000000543 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +261,7 @@
 				TargetAttributes = {
 					000E51241BA0795000000543 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 344V6JJ9K3;
 					};
 					000E51401BA0795100000543 = {
 						CreatedOnToolsVersion = 7.0;
@@ -274,9 +326,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				000E51361BA0795000000543 /* ParkingApp.xcdatamodeld in Sources */,
-				000E51301BA0795000000543 /* ViewController.m in Sources */,
+				000E51651BA07AB200000543 /* ParkingGarage.m in Sources */,
+				000E516B1BA090FF00000543 /* ParkingSpotsVC.m in Sources */,
+				0044A6781BA1EBA7002F0BE8 /* ReconfigureVC.m in Sources */,
+				000E51301BA0795000000543 /* HomeViewController.m in Sources */,
 				000E512D1BA0795000000543 /* AppDelegate.m in Sources */,
+				000E516E1BA0E56800000543 /* DetailsVC.m in Sources */,
 				000E512A1BA0795000000543 /* main.m in Sources */,
+				000E51611BA07A3000000543 /* ParkingUnits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +474,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.ParkingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,10 +490,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.ParkingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +569,7 @@
 				000E51571BA0795100000543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000E51581BA0795100000543 /* Build configuration list for PBXNativeTarget "ParkingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +578,7 @@
 				000E515A1BA0795100000543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000E515B1BA0795100000543 /* Build configuration list for PBXNativeTarget "ParkingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +587,7 @@
 				000E515D1BA0795100000543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

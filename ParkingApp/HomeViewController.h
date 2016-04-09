@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController
 
 
 @end
